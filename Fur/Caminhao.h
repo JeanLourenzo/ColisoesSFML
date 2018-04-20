@@ -93,6 +93,14 @@ public:
 
 	}
 
+	bool Colisor(Caminhao p)
+	{
+
+		return !(direita <= p.esquerda || esquerda >= p.direita || topo >= p.base || base <= p.topo);
+
+	}
+
+
 	bool Colisor(Barreira p)
 	{
 		int a, b, c, d;

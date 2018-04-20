@@ -131,6 +131,7 @@
     <ClInclude Include="Caminhao.h" />
     <ClInclude Include="Carro.h" />
     <ClInclude Include="Fabrica.h" />
+    <ClInclude Include="Moto.h" />
     <ClInclude Include="Todos.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -38,5 +38,8 @@
     <ClInclude Include="Cabeçalho.h">
       <Filter>Arquivos de Recurso</Filter>
     </ClInclude>
+    <ClInclude Include="Moto.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

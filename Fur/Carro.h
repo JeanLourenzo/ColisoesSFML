@@ -71,7 +71,7 @@ public:
 						
 				Car.move(x, y);
 		
-				std::cout << distr(eng);
+			
 
 	}
 

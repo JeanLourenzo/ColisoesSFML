@@ -1,22 +1,12 @@
 #pragma once
 
-#pragma once
-
 #include "SFML\Graphics.hpp"
 #include "Todos.h"
-#include <time.h>
-#include <iostream>
-
 #include "Barreira.h"
 #include "Fabrica.h"
 #include <random>
-#include "Moto.h"
 #include "Caminhao.h"
 #include "Carro.h"
-
-
-
-
 
 
 class Moto : public Todos {
@@ -102,6 +92,14 @@ public:
 
 	}
 
+	bool Colisor(Moto p)
+	{
+
+		return !(direita <= p.esquerda || esquerda >= p.direita || topo >= p.base || base <= p.topo);
+
+	}
+
+
 	bool Colisor(Caminhao p)
 	{
 
@@ -142,4 +140,3 @@ public:
 
 };
 
-#pragma once
