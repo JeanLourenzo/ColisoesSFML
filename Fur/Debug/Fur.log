@@ -1,2 +1,25 @@
 ﻿  Main.cpp
+d:\jogos\c++\p1\fur\fur\caminhao.h(101): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(102): warning C4244: '=': conversão de 'const float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(103): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(104): warning C4244: '=': conversão de 'const float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(107): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(110): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(113): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\caminhao.h(116): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(114): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(115): warning C4244: '=': conversão de 'const float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(116): warning C4244: '=': conversão de 'float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(117): warning C4244: '=': conversão de 'const float' para 'int', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(120): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(123): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(126): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\carro.h(129): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+d:\jogos\c++\p1\fur\fur\main.cpp(108): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(115): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(132): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(145): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(155): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(175): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\jogos\c++\p1\fur\fur\main.cpp(180): warning C4018: '<': incompatibilidade de signed/unsigned
   Fur.vcxproj -> D:\Jogos\C++\P1\Fur\Debug\Fur.exe
