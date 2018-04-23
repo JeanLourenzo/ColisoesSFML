@@ -37,16 +37,16 @@ public:
 	void Movimento() {
 		
 
-		std::random_device rd; // obtain a random number from hardware
-		std::mt19937 eng(rd()); // seed the generator
-		std::uniform_int_distribution<> distr(1, 3); // define the range
+		std::random_device rd;
+		std::mt19937 eng(rd()); 
+		std::uniform_int_distribution<> distr(1, 3); 
 	
 		float x = 0, y = 0;
 	
 
 		
 			if (distr(eng) == 1) {
-				x = -1.0f;
+				x = -0.8f;
 			}
 
 			if (distr(eng) == 2) {
@@ -54,11 +54,11 @@ public:
 			}
 
 			if (distr(eng) == 3) {
-				x = 1.0f;
+				x = 0.8f;
 			}
 
 			if (distr(eng) == 1) {
-				y = -1.0f;
+				y = -0.8f;
 			}
 
 			if (distr(eng) == 2) {
@@ -66,7 +66,7 @@ public:
 			}
 
 			if (distr(eng) == 3) {
-				y = 1.0f;
+				y = 0.8f;
 			}
 						
 				Car.move(x, y);

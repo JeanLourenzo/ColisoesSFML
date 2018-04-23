@@ -47,9 +47,8 @@ public:
 		float x = 0, y = 0;
 
 
-
 		if (distr(eng) == 1) {
-			x = -1.0f;
+			x = -0.7f;
 		}
 
 		if (distr(eng) == 2) {
@@ -57,11 +56,11 @@ public:
 		}
 
 		if (distr(eng) == 3) {
-			x = 1.0f;
+			x = 0.7f;
 		}
 
 		if (distr(eng) == 1) {
-			y = -1.0f;
+			y = -0.7f;
 		}
 
 		if (distr(eng) == 2) {
@@ -69,9 +68,8 @@ public:
 		}
 
 		if (distr(eng) == 3) {
-			y = 1.0f;
+			y = 0.7f;
 		}
-
 		Cam.move(x, y);
 
 	}
